@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Differentiation</title>
+</head>
+<body>
+   <h1>Differentiation</h1>
+    <p>Differentiation is a fundamental concept in calculus that deals with the rate at which a function changes. It is the process of finding the derivative of a function, which represents the slope of the function at any given point.</p>
+    <h2>Basic Differentiation Rules</h2>
+    <p>There are several basic rules for differentiation that can be applied to various types of functions. Some of the most commonly used rules include:</p>
+    <ul>
+        <li>Power Rule</li>
+        <li>Constant Rule</li>
+        <li>Sum Rule</li>
+        <li>Difference Rule</li>
+        <li>Chain Rule</li>
+    </ul>
+    <h2>Basics of Differentiation</h2>
+    <p>Say we have a function named f(x)</p>
+    <p>We can find the derivative of f(x) using the following notation:</p>
+    <p>f'(x) or df/dx</p>
+    <h3>Power Rule</h3>
+    <p>If f(x) = x<sup>n</sup>, then f'(x) = n*x<sup>(n-1)</sup></p>
+    <h3>Constant Rule</h3>
+    <p>If f(x) = c then f'(x) = 0 (Differentiation of constant always results in zero)</p>
+    <h3>Sum Rule</h3>
+    <p>If f(x) = g(x) + h(x) then f'(x) = g'(x) + h'(x)</p>
+    <p>Now this means that the derivative of function containing multiple terms can be found by differentiating each term separately.</p>
+    <h3>Difference Rule</h3>
+    <p>If f(x) = g(x) - h(x) then f'(x) = g'(x) - h'(x)</p>
+    <p>This concept is similar to the sum rule, but instead of adding the derivatives of each term, we subtract them.</p>
+    <h3>Chain Rule (Whole power function differentiation)</h3>
+    <p>If f(x) = [g(x)]<sup>n</sup>, then f'(x) = n*[g(x)]<sup>(n-1)</sup> * g'(x)</p>
+    <p>In other words, the derivative of a composite function is the derivative of the outer function times the derivative of the inner function.</p>
+    <p><strong>Having a strong grasp of these rules is essential for success in calculus.</strong></p>
+    <h2>Further Differentiation (AS revision)</h2>
+    <p>In this section, we will explore the main course of differentiation, which involves applying the basic rules to more complex functions. We will also discuss higher-order derivatives and their applications.</p>
+    <h3>Higher-Order Derivatives</h3>
+    <p>Higher-order derivatives are the derivatives of derivatives. The second derivative, denoted as f''(x) or d<sup>2</sup>f/dx<sup>2</sup>, represents the rate of change of the first derivative. Similarly, the third derivative, denoted as f'''(x) or d<sup>3</sup>f/dx<sup>3</sup>, represents the rate of change of the second derivative, and so on.</p>
+    <h3>Applications of Differentiation</h3>
+    <p>Differentiation has numerous applications in various fields, including physics, engineering, economics, and biology. Some common applications include:</p>
+    <ul>
+        <li>Gradients of curves</li>
+        <li>Equations of tangent and normal</li>
+        <li>Determining whether a function is increasing or decreasing</li>
+        <li>Finding stationary points and their nature</li>
+        <li>Solving optimization problems (Real-life applications)</li>
+        <li>Connected rates of changes</li>
+        <li>Solution of differential equations</li>
+    </ul>
+    <p>These will be discussed in detail later on</p>
+    <h2>Differentiation of Logarithmic Functions</h2>
+    <p>In the syllabus, the logarithm will contain only the natural logarithm (ln) for differentiation.</p>
+    <p>Logarithmic functions are the functions that contain the variable in the argument of the logarithm. The derivative of a logarithmic function can be found using the formula:</p>
+    <p>The following general formula is used to differentiate logarithmic functions:</p>
+    <p>If f(x) = ln(g(x)), then f'(x) = g'(x) / (g(x))</p>
+    <p>Where f(x) is the given function and g(x) is the function within the logarithm.</p>
+    <h2>Differentiation of Exponential Functions</h2>
+    <p>Exponential functions are the functions that contain the variable in the exponent. The derivative of an exponential function can be found using the formula:</p>
+    <p>If f(x) = e<sup>g(x)</sup> then f'(x) = e<sup>g(x)</sup> * g'(x)</p>
+    <p>where f(x) is the given function, g(x) is the function in the exponent, and e is the base of the natural logarithm.</p>
+    <h2>Differentiation of Trigonometric Functions</h2>
+    <p>Trigonometric functions are the functions that involve trigonometric ratios. The derivatives of the basic trigonometric functions are:</p>
+    <ul>
+        <li>If f(x) = sin(g(x)), then f'(x) = cos(g(x)) * g'(x)</li>
+        <li>If f(x) = cos(g(x)), then f'(x) = -sin(g(x)) * g'(x)</li>
+        <li>If f(x) = tan(g(x)), then f'(x) = sec<sup>2</sup>(g(x)) * g'(x)</li>
+        <li>If f(x) = cot(g(x)), then f'(x) = -cosec<sup>2</sup>(g(x)) * g'(x)</li>
+        <li>If f(x) = sec(g(x)), then f'(x) = sec(g(x)) * tan(g(x)) * g'(x)</li>
+        <li>If f(x) = cosec(g(x)), then f'(x) = -cosec(g(x)) * cot(g(x)) * g'(x)</li>
+        <li>If f(x) = tan<sup>-1</sup>(g(x)), then f'(x) = g'(x) / (1 + [g(x)]<sup>2</sup>)</li>
+    </ul>
+    <h2>Product Rule</h2>
+    <p>The product rule is used to differentiate the product of two functions. If f(x) = u(x) * v(x), then f'(x) = u'(x) * v(x) + u(x) * v'(x).</p>
+    <p>It is particularly useful when dealing with functions that are products of other functions.</p>
+    <h2>Quotient Rule</h2>
+    <p>The quotient rule is used to differentiate the quotient of two functions. If f(x) = u(x) / v(x), then</p>
+    <p>f'(x) = (u'(x) * v(x) - u(x) * v'(x)) / [v(x)]<sup>2</sup>.</p>
+    <p>This rule is essential when dealing with functions that are ratios of other functions.</p>
+    <h2>Implicit and Explicit Equations</h2>
+    <p>Now that we have learned the basic rules of differentiation, we can move on to more advanced topics such as implicit and explicit equations.</p>
+    <p><strong>Explicit Differentiation:</strong> They are normal equations where the dependent variable is explicitly defined in terms of the independent variable and hence their differentiation is straightforward.</p>
+    <p><strong>Implicit Differentiation:</strong> Before we dive into differentiation let us first know what on earth is Implicit Equation.</p>
+    <p>An Implicit equation is the type of equation in which the dependent variable is not isolated on one side of the equation. The 2 variables in the equation are mixed together such that it is not possible to express one variable explicitly in terms of the other.</p>
+    <p>For example, the equation x<sup>2</sup> + y<sup>2</sup> = 1 defines y implicitly as a function of x.</p>
+    <h3>The Core Concept</h3>
+    <p>Differentiate normally with respect to y. Treat y just like you would treat x (for example, the derivative of (y<sup>3</sup>) with respect to y is (3y<sup>2</sup>)).</p>
+    <p>Multiply the result by dy/dx. Because you differentiated a function of y with respect to x, add dy/dx or y' at the end.</p>
+    <h3>Steps to differentiate implicitly:</h3>
+    <ol>
+        <li>Take the derivative of both sides with respect to x.</li>
+        <li>Apply the chain rule where necessary.</li>
+        <li>Collect all terms involving dy/dx on one side of the equation.</li>
+        <li>Solve for dy/dx.</li>
+    </ol>
+    <h2>Parametric Differentiation</h2>
+    <h3>Parametric Equations</h3>
+    <p>Normally, a curve is written as a single equation linking both x and y directly. However, it is sometimes more convenient to define the curve using two separate equations, one for each variable in terms of a third variable called a parameter.</p>
+    <p>Typically, it looks like this: <strong>x = 2t + 7 ; y = 7t + 89.</strong> Now you will be asked to find dy/dx</p>
+    <p>To find dy/dx, we can use the chain rule and differentiate both equations with respect to the parameter t:</p>
+    <p>dx/dt = 2 ; dy/dt = 7</p>
+    <p>Now we can find dy/dx by dividing dy/dt by dx/dt:</p>
+    <p>dy/dx = (dy/dt) / (dx/dt) = 7 / 2</p>
+    <p>So the derivative of y with respect to x is 7/2.</p> 
+    <h2>Applications of Differentiation</h2>
+    <p>Differentiation has numerous applications but in the syllabus we will focus on a few key areas.</p>
+    <h2>Gradients of Curves</h2>
+    <p>The gradient of a curve at a given point is the slope of the tangent line to the curve at that point. It can be found by taking the derivative of the function that defines the curve and evaluating it at the given point.</p>
+    <h2>Equations of Tangent and Normal</h2>
+    <p>The equation of the tangent line to a curve at a given point can be found using the point-slope form of a line, where the slope is the derivative of the function at that point.</p>
+    <p>The equation of the normal line to a curve at a given point is perpendicular to the tangent line at that point. Its slope is the negative reciprocal of the slope of the tangent line.</p>
+    <p><strong>m = -1 / (dy/dx of slope)</strong></p>
+    <p>Once you have the gradient (m) and the point (x<sub>1</sub>, y<sub>1</sub>), find the line equation using: <strong>y - y<sub>1</sub> = m(x - x<sub>1</sub>)</strong>.</p>
+    <h2>Increasing and Decreasing Functions</h2>
+    <p>A function is said to be increasing on an interval if<strong> its derivative is positive on that interval</strong>, and decreasing if<strong> its derivative is negative</strong>. By analyzing the sign of the derivative, we can determine where a function is increasing or decreasing.</p>
+    <h2>Stationary Points and Their Nature</h2>
+    <p>A stationary point is a point on a curve where the gradient of curve is zero. (dy/dx = 0)</p>
+    <p>To determine the nature of a stationary point, we can use the second derivative test (derivative of derivative of equation).</p>
+    <ul>
+        <li>If the second derivative is positive at the stationary point, it is a local minimum.</li>
+        <li>If the second derivative is negative, it is a local maximum.</li>
+        <li>If the second derivative is zero, the test is inconclusive.</li>
+    </ul>
+    <h2>Optimization Problems (Real-World Applications of Maxima and minima)</h2>
+    <p>Optimization problems involves finding the maximum or minimum values of a function subject to certain constraints such as maximizing volume or minimizing cost.</p>
+    <ol>
+        <li>Write an equation for the quantity to be optimized.</li>
+        <li>Use the constraint to rewrite the equation in terms of a single variable.</li>
+        <li>Find the critical points by taking the derivative and setting it equal to zero.</li>
+        <li>Analyze the critical points to determine whether they correspond to maxima or minima.</li>
+    </ol>
+    <h2>Connected Rates of Change</h2>
+    <p>When 2 or more variables are changing w.r.t time, we can link rates using the chain rule.</p>
+    <p>For example, if the radius of a circle is increasing at a rate of 2 cm/s, we can find the rate at which the area is increasing by differentiating the area formula with respect to time.</p>
+    <h2>Solution of Differential Equations</h2>
+    <p>Differential equations are equations that involve derivatives of a function.</p>
+    <p>We can use separation of variables to solve first order differential equations.</p>
+    <p><strong>This topic is discussed in detail in Integration.</strong></p>
+    </body>
+</html>
